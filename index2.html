@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Celebration Website</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Confetti Animation */
+    .confetti {
+      width: 10px;
+      height: 10px;
+      background-color: #FFD700;
+      position: absolute;
+      animation: confetti-fall 2s infinite;
+    }
+
+    @keyframes confetti-fall {
+      0% {
+        transform: translateY(-100vh) rotate(0deg);
+      }
+      100% {
+        transform: translateY(100vh) rotate(360deg);
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to Our Celebration Website!</h1>
+		<h2>I got it!</h2>
+
+  </header>
+
+  <section class="main-content">
+    <h2>Congratulations!</h2>
+    <p>You're Awesome!</p>
+    <!-- Confetti Animation -->
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Celebration Website. All rights reserved.</p>
+  </footer>
+</body>
+</html>
